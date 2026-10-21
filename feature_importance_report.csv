@@ -1,0 +1,1272 @@
+Feature,Importance
+categories__Market_Pothencode,0.43701917
+categories__District_Ernakulam,0.10461662
+categories__Variety_Other,0.08744361
+categories__District_Thiruvananthapuram,0.051002257
+remainder__Rolling_Mean_7,0.032508876
+categories__Market_Chala,0.021163344
+remainder__Rolling_Mean_3,0.018799104
+remainder__Previous_Price,0.016524188
+categories__District_Kottayam,0.014116082
+categories__Market_Parassala,0.010649772
+categories__Market_Vamanapuram,0.008459876
+categories__State_Kerala,0.0064105494
+categories__Market_Pune,0.0051369914
+categories__State_Tamil Nadu,0.0040738448
+categories__State_Punjab,0.0035945266
+categories__District_Rohtak,0.0035806298
+categories__Market_Meham,0.0025842842
+categories__State_Tripura,0.0025528916
+categories__State_Assam,0.0023853427
+categories__District_Haridwar,0.0023713778
+categories__State_West Bengal,0.002289808
+categories__District_Gomati,0.002222238
+remainder__Day,0.0022100233
+categories__District_Pune,0.0021797405
+categories__Market_Doharighat,0.0018961155
+categories__State_Maharashtra,0.0018162568
+categories__Market_Banur,0.0017890871
+categories__Market_Attingal,0.0016892977
+categories__Grade_Local,0.0016888981
+categories__State_Karnataka,0.0016691422
+categories__State_Andhra Pradesh,0.0016441168
+categories__District_Sholapur,0.0015930913
+categories__Market_Nutanbazar,0.0015763626
+categories__State_Odisha,0.0014726515
+categories__District_Mau (Maunathbhanjan),0.0014034171
+categories__District_Sangli,0.0013732208
+categories__District_Jodhpur,0.0013553862
+categories__Variety_Hybrid,0.001348559
+categories__Market_Khunthabandha,0.00134532
+categories__District_Alipurduar,0.0013253285
+categories__Market_Garjee,0.001291001
+categories__District_Coochbehar,0.0012909863
+categories__State_Telangana,0.0012843049
+categories__District_Boudh,0.0012590917
+categories__Variety_Deshi,0.0012082031
+categories__State_Gujarat,0.0011805376
+categories__Market_Pune (Moshi),0.0011214352
+categories__State_Uttrakhand,0.0011083398
+categories__Market_Bargarh,0.0010947108
+categories__Market_Tiruchengode,0.0010911459
+categories__Variety_Tomato,0.0010404268
+categories__District_Gurdaspur,0.0010398536
+categories__State_Haryana,0.0010381886
+categories__Market_Rampuraphul (Nabha Mandi),0.0010204004
+categories__Market_Singanallur (Uzhavar Sandhai ),0.0010192988
+categories__Market_Sohela,0.0009792207
+categories__District_Hamirpur,0.0009786509
+categories__District_Thirssur,0.0009578436
+categories__District_Bargarh,0.00095553184
+categories__Market_Panisagar,0.00095316727
+categories__Market_Kalyan,0.0009276676
+categories__Variety_Local,0.00092662685
+categories__District_Chittor,0.00091807503
+categories__District_Bhatinda,0.00090538483
+categories__Market_Thirukalukundram (Uzhavar Sandhai ),0.00089932024
+categories__Market_Vikasnagar,0.00089607236
+categories__District_Salem,0.00087506144
+categories__Market_Chelakkara,0.00087458245
+categories__District_Harda,0.0008403039
+categories__District_Kolar,0.0008228036
+categories__Market_Kadamtala,0.00081975164
+categories__Market_Hanumangarh (Urlivas),0.0008172794
+categories__District_Kamrup,0.0008077099
+categories__District_Hoshiarpur,0.00078759866
+categories__Market_Kattappana,0.0007699547
+categories__Grade_Non-FAQ,0.00076501863
+categories__Market_Bhilwara,0.0007642124
+categories__District_Idukki,0.00076110323
+categories__District_kapurthala,0.00075747515
+categories__District_Krishnagiri,0.000742642
+categories__Market_Hoshiarpur,0.00074128417
+categories__Market_Gunpur,0.00073867803
+categories__Market_Bangarpet,0.0007305711
+categories__District_Thane,0.0007281444
+categories__District_Ambala,0.0007275056
+categories__District_Ferozpur,0.00071777863
+categories__Market_Chengannur,0.0007124898
+remainder__Month,0.00070489
+categories__Market_Solapur,0.0007043738
+categories__District_Dindigul,0.0007006238
+categories__District_Namakkal,0.00070061116
+categories__District_Keonjhar,0.00069927727
+categories__Market_Vita,0.00069900684
+categories__State_Himachal Pradesh,0.0006980655
+categories__District_Pudukkottai,0.00069733517
+categories__Market_Pampady,0.0006928616
+categories__Market_Chickkaballapura,0.00067858666
+categories__Market_Roorkee,0.0006769389
+categories__District_Nanital,0.0006666008
+categories__District_Bhilwara,0.00065885833
+categories__Market_Toofanganj,0.0006577318
+categories__Market_Kanchanpur,0.0006322363
+categories__District_Theni,0.0006202911
+categories__Market_Guduvancheri (Uzhavar Sandhai ),0.0006180769
+categories__Market_Noor Mehal,0.0006120938
+categories__Market_Aranthangi (Uzhavar Sandhai ),0.00060392474
+categories__Market_Thrissur,0.0006032821
+categories__District_Khandwa,0.0005831572
+categories__State_Chattisgarh,0.0005768794
+categories__Market_Tarantaran,0.00056694105
+categories__Market_Chengalpet (Uzhavar Sandhai ),0.00055671204
+categories__District_Rayagada,0.0005566438
+categories__District_North Tripura,0.00055578246
+categories__Market_Adimali,0.0005538156
+categories__State_Uttar Pradesh,0.00055345503
+categories__District_Virudhunagar,0.0005447335
+categories__Market_Hinjilicut,0.0005437354
+categories__Grade_FAQ,0.0005419213
+categories__District_Ludhiana,0.0005387151
+categories__District_Rajouri,0.00053414784
+categories__District_Ganganagar,0.00053236977
+categories__District_Karur,0.00053229084
+categories__District_West District,0.00053178257
+categories__District_Ropar (Rupnagar),0.0005286927
+categories__District_Ganjam,0.000524217
+categories__Market_Keonjhar,0.0005166828
+categories__Market_Boxonagar,0.00051522866
+categories__District_Thirupathur,0.0005152114
+categories__District_Thiruvarur,0.0004969142
+categories__Market_Piravam,0.000495699
+categories__Market_Dasuya,0.0004846358
+categories__District_Fatehabad,0.00048108646
+categories__Market_F.G.Churian,0.00047580767
+categories__District_Shamli,0.00047319444
+categories__Market_Sirali (F&V),0.00047124273
+categories__Market_Perinthalmanna,0.0004647817
+categories__Market_Raigarh,0.00045490253
+categories__District_Amritsar,0.00045059988
+categories__District_Jalpaiguri,0.0004355675
+categories__Market_Perambakkam (Uzhavar Sandhai ),0.0004337445
+categories__District_Cuddalore,0.00043371238
+categories__District_Kendrapara,0.00043214203
+categories__District_Dehradoon,0.00042862628
+categories__Market_Bhagta Bhai Ka,0.00042826214
+categories__Market_Neyyatinkara,0.0004168009
+categories__District_Nashik,0.00041189423
+categories__District_Sivaganga,0.0004102872
+remainder__DayOfWeek,0.00040670147
+categories__District_Nalbari,0.00040304987
+categories__District_Bilaspur,0.00040202102
+categories__Market_Aralamoodu,0.00040088795
+categories__Market_Gondal (Veg.market Gondal),0.00039988043
+categories__Market_Gandacharra,0.0003987461
+categories__Market_Hamirpur (Nadaun),0.00039524763
+categories__Market_Khandhla,0.00039131395
+categories__Market_Rajouri (F&V),0.00039037678
+categories__District_Nagpur,0.00038920232
+categories__District_Jalandhar,0.00038364326
+categories__District_Puruliya,0.00038263144
+categories__State_Jammu and Kashmir,0.00037626893
+categories__Market_Anchal,0.0003695096
+"categories__Market_New Grain Market , Panchkula",0.00036784494
+categories__Market_Ramnagar,0.0003662595
+categories__Market_Mayiladuthurai (Uzhavar Sandhai ),0.0003578746
+categories__District_Nuapada,0.0003562148
+categories__Market_Suratgarh,0.00035297492
+categories__Market_Lehra Gaga,0.00035191202
+categories__Market_Pamohi (Garchuk),0.00035022674
+categories__District_Raigad,0.00034647936
+categories__Market_Vadakkenchery,0.00034563296
+categories__District_Kheda,0.00033931114
+categories__Market_Rajpura,0.00033653824
+categories__Market_Kottarakkara,0.00033640428
+categories__District_Surendranagar,0.00033481733
+categories__District_Medinipur (E),0.000332734
+categories__Market_Mekhliganj,0.0003305829
+categories__Market_Bilaspur,0.00032970158
+categories__Market_Sanawad (F&V),0.0003277262
+categories__Market_Mustafabad,0.0003267557
+categories__Market_Kosli,0.00032461985
+categories__District_Chengalpattu,0.0003246174
+categories__Market_Kulai,0.00032327703
+categories__District_Kollam,0.00032239562
+categories__Market_Ariyalur (Uzhavar Sandhai),0.0003219155
+categories__Market_Dhekiajuli,0.0003193096
+categories__Market_Panchkul (Kalka),0.0003157893
+categories__District_Dakshin Dinajpur,0.00031129736
+categories__Market_Sathur (Uzhavar Sandhai ),0.0003108002
+categories__District_Madurai,0.0003040988
+categories__Market_Chamkaur Sahib,0.00030161242
+categories__Market_Malur,0.0002947891
+categories__Market_Patti,0.0002943756
+categories__Market_Kalyanpur,0.00029204652
+categories__Market_Kuruppanthura,0.000291387
+categories__District_Nagercoil (Kannyiakumari),0.0002891446
+categories__Market_Palitana,0.00028499175
+categories__Market_Padampur,0.00028113977
+categories__Market_Kottayam,0.00028065988
+categories__District_Sagar,0.00027914494
+categories__Market_Alipurduar,0.0002777513
+categories__Market_Jagiroad Dry Fish Market,0.00027725013
+categories__District_Prayagraj,0.0002740878
+categories__Market_Firozepur City,0.000274068
+categories__Market_NGO Colony (Uzhavar Sandhai ),0.0002737123
+categories__Market_Kanjirappally,0.0002732849
+categories__District_Bhavnagar,0.00027245822
+categories__Market_Parimpore,0.00026956748
+categories__District_Indore,0.00026909172
+categories__District_Srinagar,0.00026832958
+categories__Market_Viralimalai (Uzhavar Sandhai ),0.00026479503
+categories__Market_Nakodar,0.00026458313
+categories__District_Chamba,0.00026296693
+categories__District_Sibsagar,0.00026181035
+categories__Market_Kharar,0.0002585962
+categories__State_Madhya Pradesh,0.00025795045
+categories__Market_Nautnava,0.00025770636
+categories__Market_Khurai (F&V),0.00025766363
+categories__Market_Kariyapatti (Uzhavar Sandhai ),0.00025681747
+categories__District_Coimbatore,0.00025677445
+categories__District_Thirupur,0.000255137
+categories__District_Fatehgarh,0.00025440095
+categories__Market_Bilga,0.0002535044
+categories__Market_Khamano,0.00025113314
+categories__District_Ramanathapuram,0.00025001055
+categories__Market_Hasanpur,0.0002485565
+categories__District_Karnal,0.00024790227
+categories__Market_Kollengode,0.00024678555
+categories__Market_Hamirpur,0.00024632653
+categories__Market_Boudh,0.0002461629
+categories__Market_Bathinda,0.00024372502
+categories__Market_Khatra,0.00024371644
+categories__Market_Nasik,0.00024229968
+categories__Market_Karsiyang (Matigara),0.00024220714
+categories__Market_Bhadara,0.00024095127
+categories__District_Yamuna Nagar,0.00024065004
+categories__Market_Chatta Krushak Bazar,0.00024019179
+categories__Market_Ambattur (Uzhavar Sandhai ),0.00023834706
+categories__Market_Rayya,0.00023089885
+categories__Market_Teliamura,0.00023055586
+categories__District_Darjeeling,0.00022890225
+categories__State_Rajasthan,0.00022883357
+categories__Market_Fatehabad,0.00022655545
+categories__Market_Sivakasi (Uzhavar Sandhai ),0.00022244769
+categories__District_Hyderabad,0.0002221083
+categories__Market_Vadaseri,0.0002214246
+categories__Market_Chavakkad,0.000220224
+categories__District_Khammam,0.00022003565
+categories__District_Bankura,0.0002173798
+categories__Market_Sonepat,0.00021727422
+categories__Market_Samrala,0.00021509109
+categories__District_Tenkasi,0.00021343854
+categories__District_Sundergarh,0.00020993949
+categories__Market_Nalbari,0.00020977548
+categories__Market_Thalavaipuram (Uzhavar Sandhai ),0.00020873586
+categories__District_Thirunelveli,0.00020758154
+categories__Market_Dinanagar,0.00020711985
+categories__District_Faridkot,0.00020640368
+categories__Market_Coonoor (Uzhavar Sandhai ),0.00020604761
+categories__Market_Rajapalayam (Uzhavar Sandhai ),0.00020387434
+categories__District_MORIGAON,0.00020363595
+categories__Market_Sehjanwa,0.00020265245
+categories__District_Jalgaon,0.00020251216
+categories__District_Khowai,0.00020221456
+categories__Market_Siliguri,0.00020165906
+categories__Market_Faridabad,0.00020160606
+categories__Market_Faridkot,0.00020144973
+categories__Market_Kothamangalam,0.00020117307
+categories__District_Dhalai,0.00020115274
+categories__Market_Panposh,0.00020059191
+categories__Market_kalanwali,0.00020041004
+categories__Market_Sonamura,0.00020001543
+categories__District_Alappuzha,0.0001990204
+categories__Market_Sheoraphuly,0.00019790325
+categories__Market_Bhawanigarh,0.00019750431
+categories__Market_Nihal Singh Wala,0.00019563078
+categories__Market_Kaveripattinam (Uzhavar Sandhai ),0.00019513686
+categories__District_Sonitpur,0.00019494965
+categories__Market_Belur,0.00019464658
+categories__Market_Mahabubnagar (Rythu Bazar),0.00019402191
+categories__Market_Jalagandapuram (Uzhavar Sandhai ),0.00019391299
+categories__Market_Chhachrauli,0.00019344648
+categories__Market_Alangudi (Uzhavar Sandhai ),0.00019259693
+categories__Market_Panchpedwa,0.00019177252
+categories__Market_Khambhat (Veg Yard Khambhat),0.00019146997
+categories__Market_Kanakapura,0.00019101647
+categories__Market_Chalakudy,0.0001903944
+categories__Market_Baghapurana,0.00019030337
+categories__Market_Solan,0.00019019414
+categories__Market_Tiphra,0.00019001823
+categories__Market_Sonepat (Kharkhoda),0.00018989498
+categories__Market_Shahzadpur,0.00018888245
+categories__District_Sepahijala,0.00018781186
+categories__Market_Panvel,0.00018649505
+categories__Market_Dudhansadhan,0.00018479695
+categories__District_Hassan,0.00018409928
+categories__District_Tarntaran,0.00018373928
+categories__Market_Mukerian (Talwara),0.00018290953
+categories__Market_Kapadvanj,0.00018240606
+categories__Market_Cuddalore (Uzhavar Sandhai ),0.00018230717
+categories__Market_Panichowki,0.00018219514
+categories__Market_Sibsagar,0.00018197442
+categories__District_Solan,0.00018184091
+categories__District_Raigarh,0.00018152497
+categories__District_Patiala,0.00018144274
+categories__Market_Mannar,0.00018141212
+categories__Market_Ramanathapuram (Uzhavar Sandhai ),0.00018114675
+categories__Market_Balarampuram,0.00018102895
+categories__Market_Santir Bazar,0.00017983573
+categories__Market_Rohroo,0.00017956112
+categories__Market_Jaspur (UC),0.0001795279
+categories__Market_Pollachi (Uzhavar Sandhai ),0.00017951136
+categories__Market_Kendrapara,0.00017936675
+categories__District_Amreli,0.00017916277
+categories__Market_Barpathari,0.00017894873
+categories__Market_Khariar Road,0.0001781544
+categories__Market_Pune (Manjri),0.00017783848
+categories__District_Muktsar,0.00017726558
+categories__Market_Aruppukottai (Uzhavar Sandhai ),0.00017611707
+categories__Market_Solan (Nalagarh),0.00017606374
+categories__District_Dharmapuri,0.0001754758
+categories__Market_Ranipettai (Uzhavar Sandhai ),0.00017439692
+"categories__Market_Pavilion Ground,Khammam,RBZ",0.00017401922
+categories__Market_Falakata,0.0001737821
+categories__District_Medinipur (W),0.00017370637
+categories__District_Sonipat,0.00017294374
+categories__District_Bangalore,0.00016981957
+categories__Market_Mukerian,0.00016919707
+categories__District_Erode,0.00016841701
+categories__District_Panchkula,0.00016840718
+categories__Market_Madhuranthagam (Uzhavar Sandhai ),0.00016783433
+categories__Market_Ludhiana,0.00016758773
+categories__Market_Khariar,0.0001661925
+categories__Market_Angamaly,0.00016610892
+categories__Market_Vai,0.00016556932
+categories__Market_Darjeeling,0.00016526805
+categories__Market_Siyana,0.00016517125
+categories__Market_Damnagar,0.00016302087
+categories__Market_Vaniyampadi (Uzhavar Sandhai ),0.00016138656
+categories__District_Agra,0.00016114605
+categories__Market_Mehatpur,0.0001602806
+categories__Market_Mamdot,0.00016017594
+categories__Market_Palamaner,0.00015984496
+categories__Market_Palwal,0.00015877804
+categories__Market_Thirurrangadi,0.00015822693
+categories__District_Hooghly,0.00015693845
+categories__District_Gir Somnath,0.00015656748
+categories__Market_Srivilliputhur (Uzhavar Sandhai ),0.0001564887
+categories__Market_Koduvayoor,0.00015535888
+categories__Market_Habra,0.00015462746
+categories__District_Mirzapur,0.00015164283
+categories__Market_Hassanpur,0.00015133183
+categories__Market_Punalur,0.00015047305
+categories__District_Jabalpur,0.00014994532
+categories__Market_Ambala City (Subji Mandi),0.00014668079
+categories__District_Shimla,0.00014350902
+categories__District_North 24 Parganas,0.0001434688
+categories__Market_Pattamundai,0.00014311729
+categories__District_Chandrapur,0.0001427085
+categories__Market_Virudhunagar (Uzhavar Sandhai ),0.00014208595
+categories__Market_Dehradoon,0.00014169
+categories__District_Rajkot,0.00014128274
+categories__Market_Bariwala,0.00013902882
+categories__Market_Karaikudi (Uzhavar Sandhai ),0.00013200495
+categories__District_Thiruvellore,0.00013102303
+categories__Market_Madhavapuram,0.0001306362
+categories__Market_vadakarapathy,0.00013003987
+categories__District_Bharatpur,0.00012804763
+categories__Market_Mettupalayam (Uzhavar Sandhai ),0.00012239664
+categories__Market_Sriganganagar (F&V),0.00012129803
+categories__Market_Mhow (F&V),0.000115895
+categories__District_Unokoti,0.000113565955
+categories__District_Jorhat,0.00011155011
+categories__District_Cachar,0.000110252375
+categories__District_Jhabua,0.00010764887
+categories__District_South District,9.618836e-05
+categories__District_Davangere,9.235839e-05
+categories__District_Khurda,9.0397596e-05
+categories__Market_Dhanotu (Mandi),8.966675e-05
+categories__Market_Bhanjanagar,8.764345e-05
+categories__Market_Kangra (Jaisinghpur),8.422514e-05
+categories__Market_Tenkasi (Uzhavar Sandhai ),7.970668e-05
+categories__Market_Palacode (Uzhavar Sandhai ),7.7350756e-05
+categories__Market_Tiruppur (North) (Uzhavar Sandhai ),7.2851384e-05
+categories__Market_Kangayam (Uzhavar Sandhai ),7.283909e-05
+categories__Market_Pune (Pimpri),7.236475e-05
+categories__Market_Pandua,6.536469e-05
+categories__Market_Moynaguri,6.5163564e-05
+categories__Market_Gowribidanoor,6.478599e-05
+categories__Market_Coochbehar,6.3750114e-05
+categories__Market_Warangal,6.351863e-05
+categories__District_Golaghat,6.343096e-05
+categories__Market_Sonabarighat,5.946462e-05
+categories__Market_Punganur,5.4997585e-05
+categories__Market_Khammam,5.3969092e-05
+categories__Market_Golaghat,5.2908672e-05
+categories__Market_Myladi (Uzhavar Sandhai ),4.960542e-05
+categories__District_Ranga Reddy,4.6253434e-05
+categories__Market_Rayagada,4.5626657e-05
+categories__District_Barpeta,4.470609e-05
+categories__Market_Nadiyad (Chaklasi),4.2605618e-05
+categories__Market_Singampunari (Uzhavar Sandhai ),4.0792187e-05
+categories__Market_Harur (Uzhavar Sandhai ),3.9796392e-05
+categories__Market_Sampath Nagar (Uzhavar Sandhai ),3.788896e-05
+categories__Market_Dharmapuri (Uzhavar Sandhai ),3.3750053e-05
+categories__Market_Sirhind,3.0754236e-05
+categories__Market_Madanapalli,2.9578881e-05
+categories__Market_Tirupatthur (Uzhavar Sandhai ),2.6624573e-05
+categories__Market_Periyar Nagar (Uzhavar Sandhai ),2.636603e-05
+categories__District_Dhenkanal,2.392865e-05
+categories__Market_Islampur,2.1686852e-05
+categories__Market_Bassi Pathana,1.897658e-05
+categories__Market_Udumalpet,1.890828e-05
+categories__District_Anand,1.7635244e-05
+categories__District_UdhamSinghNagar,1.5266332e-05
+categories__Market_Panruti (Uzhavar Sandhai ),1.4321947e-05
+categories__Market_Mulakalacheruvu,1.3584724e-05
+categories__Market_Chintamani,1.353903e-05
+categories__Market_Sundarapuram (Uzhavar Sandhai ),9.447973e-06
+categories__Market_Devakottai (Uzhavar Sandhai ),5.3184317e-06
+categories__Market_Paramakudi (Uzhavar Sandhai ),4.657727e-06
+categories__Market_Kamalghat,3.5950256e-06
+categories__Market_Brahmaputra Private Market,2.3450125e-06
+categories__Market_Mohanpur,6.803534e-07
+categories__Market_Amritsar (Amritsar Mewa Mandi),9.11176e-08
+categories__Market_Avallapalli (Uzhavar Sandhai ),0.0
+categories__Market_Auraiya,0.0
+categories__Market_Attayampatti (Uzhavar Sandhai ),0.0
+categories__Market_Athur (Uzhavar Sandhai ),0.0
+categories__Market_Athirampuzha,0.0
+categories__Market_Atarra,0.0
+categories__Market_Ashahipora (Anantnagh),0.0
+categories__Market_Asansol,0.0
+categories__Market_Aroor,0.0
+categories__Market_Arcot (Uzhavar Sandhai ),0.0
+categories__Market_Arani (Uzhavar Sandhai ),0.0
+categories__Market_Anwala,0.0
+categories__Market_Akluj,0.0
+categories__Market_Akbarpur,0.0
+categories__Market_Ajuha,0.0
+categories__Market_Ajmer (F&V),0.0
+categories__Market_Ahmedgarh,0.0
+categories__Market_Ahmedabad,0.0
+categories__Market_Ahirora,0.0
+categories__Market_Agra,0.0
+categories__Market_Achnera,0.0
+categories__Market_Achalda,0.0
+categories__Market_Abu Road,0.0
+categories__Market_AJattihalli (Uzhavar Sandhai ),0.0
+categories__Market_Bahadajholla,0.0
+categories__Market_Bagpat,0.0
+categories__Market_Bagepalli,0.0
+categories__Market_Badwani (F&V),0.0
+categories__Market_Barasat,0.0
+categories__Market_Barara,0.0
+categories__Market_Baran,0.0
+categories__Market_Barabanki,0.0
+categories__Market_Bangarmau,0.0
+categories__Market_Banda,0.0
+categories__Market_Balurghat,0.0
+categories__Market_Balugaon,0.0
+categories__Market_Balrampur,0.0
+categories__Market_Balotra,0.0
+categories__Market_Ballia,0.0
+categories__Market_Ballabhgarh,0.0
+categories__Market_Balarampur,0.0
+categories__Market_Bahraich,0.0
+categories__Market_Bahadurgarh,0.0
+categories__Market_Aligarh,0.0
+categories__Market_Betnoti,0.0
+categories__Market_Besimari,0.0
+categories__Market_Belacoba,0.0
+categories__Market_Bayana,0.0
+categories__Market_Batote,0.0
+categories__Market_Batala,0.0
+categories__Market_Basti,0.0
+categories__Market_Bassi,0.0
+categories__Market_Barwala (Hisar),0.0
+categories__Market_Barwala,0.0
+categories__Market_Barpeta Road,0.0
+categories__Market_Barnala,0.0
+categories__Market_Baripada,0.0
+categories__Market_Bareilly,0.0
+categories__Market_Baraut,0.0
+categories__District_Villupuram,0.0
+categories__District_Vellore,0.0
+categories__District_Varanasi,0.0
+categories__District_Vadodara (Baroda),0.0
+categories__District_Unnao,0.0
+categories__District_Una,0.0
+categories__District_Udupi,0.0
+categories__District_Udhampur,0.0
+categories__District_Udaipur,0.0
+categories__District_Tuticorin,0.0
+categories__Market_Bharwari,0.0
+categories__Market_Bharuch,0.0
+categories__Market_Bharuasumerpur,0.0
+categories__Market_Bharthna,0.0
+categories__Market_Bhagwanpur (Naveen Mandi Sthal),0.0
+categories__District_The Nilgiris,0.0
+categories__District_Thanjavur,0.0
+categories__Market_Birbhum,0.0
+"categories__Market_Binny Mill (F&V), Bangalore",0.0
+categories__Market_Bindki,0.0
+categories__Market_Bilsi,0.0
+categories__Market_Bilimora,0.0
+categories__Market_Bilasipara,0.0
+categories__Market_Bikaner (F&V),0.0
+categories__Market_Bijnaur,0.0
+categories__Market_Bhusaval,0.0
+categories__Market_Bhuntar,0.0
+categories__Market_Bhiwani,0.0
+categories__Market_Bhinmal,0.0
+categories__Market_Bhinga,0.0
+categories__District_Warangal,0.0
+categories__Market_Chamba,0.0
+categories__Market_Chamaraj Nagar,0.0
+categories__Market_Chakdah,0.0
+categories__Market_Chaandpur,0.0
+categories__Market_Ch. Dadri,0.0
+categories__Market_Burdwan,0.0
+categories__Market_Buland Shahr,0.0
+categories__Market_Budalada,0.0
+categories__Market_Bowenpally,0.0
+categories__Market_Bonai,0.0
+categories__Market_Bolpur,0.0
+categories__Market_Bodinayakanur (Uzhavar Sandhai ),0.0
+categories__Market_Bishalgarh,0.0
+categories__District_Thiruvannamalai,0.0
+categories__District_Thiruchirappalli,0.0
+categories__District_Sirsa,0.0
+categories__District_Sirohi,0.0
+categories__District_Sirmore,0.0
+categories__District_Sikar,0.0
+categories__District_Siddharth Nagar,0.0
+categories__Market_Chattrapati Sambhajinagar,0.0
+categories__Market_Chattarpur (F&V),0.0
+categories__Market_Chathanoor,0.0
+categories__Market_Charra,0.0
+categories__Market_Chapar,0.0
+categories__Market_Chandrapur (Ganjwad),0.0
+categories__Market_Chandoli,0.0
+categories__Market_Chandigarh (Grain/Fruit),0.0
+categories__Market_Chandausi,0.0
+categories__Market_Chandabali,0.0
+categories__Market_Champadanga,0.0
+categories__Market_Chitwadagaon,0.0
+categories__Market_Chirgaon,0.0
+categories__Market_Chinnamanur (Uzhavar Sandhai ),0.0
+categories__Market_Chinnalapatti (Uzhavar Sandhai ),0.0
+categories__Market_Chindwara (F&V),0.0
+categories__Market_Chikkamagalore,0.0
+categories__Market_Chidambaram (Uzhavar Sandhai ),0.0
+categories__Market_Chhibramau,0.0
+categories__Market_Cheyyar (Uzhavar Sandhai ),0.0
+categories__Market_Chevella,0.0
+categories__Market_Chengam (Uzhavar Sandhai ),0.0
+categories__District_Surat,0.0
+categories__District_Sounth 24 Parganas,0.0
+categories__District_Sonbhadra,0.0
+categories__District_Sitapur,0.0
+categories__Market_Dera Bassi,0.0
+categories__Market_Denkanikottai (Uzhavar Sandhai ),0.0
+categories__Market_Deesa (Deesa Veg Yard),0.0
+categories__Market_Davangere,0.0
+categories__Market_Dankaur,0.0
+categories__Market_Dahod (Veg. Market),0.0
+categories__Market_Dadri,0.0
+categories__Market_Chutmalpur,0.0
+categories__Market_Churu,0.0
+categories__Market_Chuliaposi,0.0
+categories__Market_Choubepur,0.0
+categories__Market_Chorichora,0.0
+categories__Market_Chomu (F&V),0.0
+categories__Market_Chokkikulam (Uzhavar Sandhai ),0.0
+categories__District_Shimoga,0.0
+categories__District_Sheopur,0.0
+categories__District_Shahjahanpur,0.0
+categories__District_Sehore,0.0
+categories__District_Satara,0.0
+categories__District_Sant Kabir Nagar,0.0
+categories__District_Sangrur,0.0
+categories__District_Sambhal,0.0
+categories__Market_Dharapuram (Uzhavar Sandhai ),0.0
+categories__Market_Dharamshala,0.0
+categories__Market_Dhand,0.0
+categories__Market_Dhanaura,0.0
+categories__Market_Dhamnod (F&V),0.0
+categories__Market_Dhamdhama,0.0
+categories__Market_Devariya,0.0
+categories__Market_Devaram (Uzhavar Sandhai ),0.0
+categories__Market_Elampillai (Uzhavar Sandhai ),0.0
+categories__Market_Egra/contai,0.0
+categories__Market_Edapadi (Uzhavar Sandhai ),0.0
+categories__Market_Durgapur,0.0
+categories__Market_Durg,0.0
+categories__Market_Dudhi,0.0
+categories__Market_Doraha,0.0
+categories__Market_Diphu,0.0
+categories__Market_Dinhata,0.0
+categories__Market_Dindigul (Uzhavar Sandhai ),0.0
+categories__Market_Dibiapur,0.0
+categories__Market_Diamond Harbour (South 24-pgs),0.0
+categories__Market_Dhuri,0.0
+categories__Market_Dhupguri,0.0
+categories__District_Shravasti,0.0
+categories__Market_Gajol,0.0
+categories__Market_Gadaura,0.0
+categories__Market_Firozabad,0.0
+categories__Market_FerozpurZirkha (Nagina),0.0
+categories__Market_Fazilka,0.0
+categories__Market_Fatehpur Sikri,0.0
+categories__Market_Fatehpur,0.0
+categories__Market_Fatakbazar,0.0
+categories__Market_Farukhabad,0.0
+categories__Market_Farukh Nagar,0.0
+categories__Market_Faizabad,0.0
+categories__Market_Ettumanoor,0.0
+categories__Market_Etawah,0.0
+categories__Market_Etah,0.0
+categories__Market_Erragadda (Rythu Bazar),0.0
+categories__Market_Ernakulam,0.0
+categories__District_Saharanpur,0.0
+categories__District_Rewari,0.0
+categories__District_Rewa,0.0
+categories__District_Ratnagiri,0.0
+categories__District_Ratlam,0.0
+categories__District_Ranipet,0.0
+categories__District_Rampur,0.0
+categories__District_Rajsamand,0.0
+categories__District_Rajnandgaon,0.0
+categories__Market_Garh Shankar,0.0
+categories__Market_Garbeta (Medinipur),0.0
+categories__Market_Gangarampur (Dakshin Dinajpur),0.0
+categories__Market_Gandarvakottai (Uzhavar Sandhai ),0.0
+categories__Market_Gandai,0.0
+categories__Market_Ganaur,0.0
+categories__Market_Gonda,0.0
+categories__Market_Goluwala,0.0
+categories__Market_Golagokarnath,0.0
+categories__Market_Gohana,0.0
+categories__Market_Gobichettipalayam (Uzhavar Sandhai ),0.0
+categories__Market_Gingee (Uzhavar Sandhai ),0.0
+categories__Market_Giddarbaha,0.0
+categories__Market_Ghiraur,0.0
+categories__Market_Ghaziabad,0.0
+categories__Market_Ghatal,0.0
+categories__Market_Gharaunda,0.0
+categories__Market_Ghanaur,0.0
+categories__Market_Gazipur,0.0
+categories__Market_GarhShankar (Kotfatuhi),0.0
+categories__Market_Garh Shankar (Mahalpur),0.0
+categories__District_Pratapgarh,0.0
+categories__District_Porbandar,0.0
+categories__District_Pillibhit,0.0
+categories__District_Perambalur,0.0
+categories__District_Paschim Bardhaman,0.0
+categories__Market_Gurusarai,0.0
+categories__Market_Gurgaon,0.0
+categories__Market_Gurdaspur,0.0
+categories__Market_Gundlupet,0.0
+categories__Market_Gudiyatham (Uzhavar Sandhai ),0.0
+categories__Market_Gudimalkapur,0.0
+categories__Market_Gudalur (Uzhavar Sandhai ),0.0
+categories__Market_Gossaigaon,0.0
+categories__Market_Gorakhpur,0.0
+categories__Market_Gopiganj,0.0
+categories__Market_Gopa,0.0
+categories__Market_Hissar,0.0
+categories__Market_Hingna,0.0
+categories__Market_Hindol,0.0
+categories__Market_Hasthampatti (Uzhavar Sandhai ),0.0
+categories__Market_Haridwar Union,0.0
+categories__Market_Hardoi,0.0
+categories__Market_Hapur,0.0
+categories__Market_Hanumangarh Town,0.0
+categories__Market_Hansi,0.0
+categories__Market_Haldwani,0.0
+categories__Market_Haibargaon,0.0
+categories__Market_Haathras,0.0
+categories__District_Rajgarh,0.0
+categories__District_Raebarelli,0.0
+categories__District_Purba Bardhaman,0.0
+categories__District_Palwal,0.0
+categories__District_Palakad,0.0
+categories__District_Nayagarh,0.0
+categories__District_Nawanshahr,0.0
+categories__District_Navsari,0.0
+categories__District_Nalgonda,0.0
+categories__Market_Jagadhri,0.0
+categories__Market_Jafarganj,0.0
+categories__Market_Itarsi (F&V),0.0
+categories__Market_Indri,0.0
+categories__Market_Ibrahimputnam,0.0
+categories__Market_Iamailabad,0.0
+categories__Market_Hosur (Uzhavar Sandhai ),0.0
+categories__Market_Hoshangabad (F&V),0.0
+categories__Market_Hodal,0.0
+categories__Market_Jaunpur,0.0
+categories__Market_Jasvantnagar,0.0
+categories__Market_Jasra,0.0
+categories__Market_Jameenrayapettai (Uzhavar Sandhai ),0.0
+categories__Market_Jalpaiguri Sadar,0.0
+categories__Market_Jalore,0.0
+categories__Market_Jalgaon,0.0
+categories__Market_Jalaun,0.0
+categories__Market_Jalandhar City (Jalandhar),0.0
+categories__Market_Jalalabad,0.0
+categories__Market_Jakhal,0.0
+categories__Market_Jaipur (F&V),0.0
+categories__Market_Jahangirabad,0.0
+categories__Market_Jagraon,0.0
+categories__Market_Jagnair,0.0
+categories__District_Panipat,0.0
+categories__Market_Kallachi,0.0
+categories__Market_Kalipur,0.0
+categories__Market_Kalikiri,0.0
+categories__Market_Kalburgi,0.0
+categories__Market_Kairana,0.0
+categories__Market_Kahithapattarai (Uzhavar Sandhai ),0.0
+categories__Market_K.R. Pet,0.0
+categories__Market_Junnar (Narayangaon),0.0
+categories__Market_Jorhat,0.0
+categories__Market_Jodhpur (F&V)(Paota),0.0
+categories__Market_Jind,0.0
+categories__Market_Jhansi,0.0
+categories__Market_Jhajjar,0.0
+categories__Market_Jeyankondam (Uzhavar Sandhai ),0.0
+categories__Market_Jayas,0.0
+categories__Market_Jawra (F&V),0.0
+categories__Market_Kannauj,0.0
+categories__Market_Kanjangadu,0.0
+categories__Market_Kangra (Nagrota Bagwan),0.0
+categories__Market_Kangra (Jassour),0.0
+categories__Market_Kangra (Baijnath),0.0
+categories__Market_Kangra,0.0
+categories__Market_Kandiyaperi (Uzhavar Sandhai ),0.0
+categories__Market_Kancheepuram (Uzhavar Sandhai ),0.0
+categories__Market_Kamthi,0.0
+categories__Market_Kambam (Uzhavar Sandhai ),0.0
+categories__Market_Kamakhyanagar,0.0
+categories__Market_Kalwakurthy,0.0
+categories__Market_Kalna,0.0
+categories__Market_Kalmeshwar,0.0
+categories__Market_Kallakurichi (Uzhavar Sandhai ),0.0
+categories__District_Nagapattinam,0.0
+categories__District_Nagaon,0.0
+categories__District_Nadia,0.0
+categories__District_Mysore,0.0
+categories__District_Muzaffarnagar,0.0
+categories__District_Mumbai,0.0
+categories__District_Morena,0.0
+categories__District_Morbi,0.0
+categories__District_Mohali,0.0
+categories__District_Moga,0.0
+categories__District_Mewat,0.0
+categories__District_Mehsana,0.0
+categories__District_Meerut,0.0
+categories__Market_Karambakkudi (Uzhavar Sandhai ),0.0
+categories__Market_Karad,0.0
+categories__Market_Kanpur (Grain),0.0
+categories__Market_Khalilabad,0.0
+categories__Market_Khairagarh,0.0
+categories__Market_Khair,0.0
+categories__Market_Khaga,0.0
+categories__Market_Kesinga,0.0
+categories__Market_Keshopur,0.0
+categories__Market_Kendrapara (Marshaghai),0.0
+categories__Market_Keelpennathur (Uzhavar Sandhai ),0.0
+categories__Market_Kayamkulam,0.0
+categories__Market_Kayamganj,0.0
+categories__Market_Katpadi (Uzhavar Sandhai ),0.0
+categories__Market_Kathua,0.0
+categories__Market_Kashipur,0.0
+categories__Market_Kasganj,0.0
+categories__Market_Karvi,0.0
+categories__Market_Karur (Uzhavar Sandhai ),0.0
+categories__District_Mathura,0.0
+categories__District_Mansa,0.0
+categories__District_Mandya,0.0
+categories__District_Mandi,0.0
+categories__District_Malda,0.0
+categories__District_Malappuram,0.0
+categories__District_Mainpuri,0.0
+categories__District_Mahoba,0.0
+categories__District_Mahendragarh-Narnaul,0.0
+categories__District_Mahbubnagar,0.0
+categories__District_Maharajganj,0.0
+categories__Market_Khed (Chakan),0.0
+categories__Market_Khateema,0.0
+categories__Market_Khatauli,0.0
+categories__Market_Khanna,0.0
+categories__Market_Kotadwara,0.0
+categories__Market_Kota (F&V),0.0
+categories__Market_Kosikalan,0.0
+categories__Market_Koraput (Semilguda),0.0
+categories__Market_Koraput,0.0
+categories__Market_Kopaganj,0.0
+categories__Market_Kondotty,0.0
+categories__Market_Kollam,0.0
+categories__Market_Kolhapur,0.0
+categories__Market_Kolar,0.0
+categories__Market_Kodungalloor,0.0
+categories__Market_Kiratpur,0.0
+categories__Market_Khurja,0.0
+categories__Market_Khekda,0.0
+categories__District_Medak,0.0
+categories__District_Mayurbhanja,0.0
+categories__Market_Lalganj,0.0
+categories__Market_Lakhimpur,0.0
+categories__Market_Ladwa,0.0
+categories__Market_L B Nagar,0.0
+categories__Market_Kuthuparambu,0.0
+categories__Market_Kurichi (Uzhavar Sandhai ),0.0
+categories__Market_Kurali,0.0
+categories__Market_Kundrathur (Uzhavar Sandhai ),0.0
+categories__Market_Kumbakonam (Uzhavar Sandhai ),0.0
+categories__Market_Kumarapalayam (Uzhavar Sandhai ),0.0
+categories__Market_Kulithalai (Uzhavar Sandhai ),0.0
+categories__Market_Kukatpally (Rythu Bazar),0.0
+categories__Market_Krishnagiri (Uzhavar Sandhai ),0.0
+categories__Market_Kovilpatti (Uzhavar Sandhai ),0.0
+categories__Market_Kottakkal,0.0
+categories__Market_Kotputli,0.0
+categories__District_Lucknow,0.0
+categories__District_Lalitpur,0.0
+categories__District_Lakhimpur,0.0
+categories__District_Kurukshetra,0.0
+categories__District_Kurnool,0.0
+categories__District_Kullu,0.0
+categories__District_Kozhikode (Calicut),0.0
+categories__District_Kotputli- Behror,0.0
+categories__District_Kota,0.0
+categories__District_Koraput,0.0
+categories__Market_Lucknow,0.0
+categories__Market_Lohian Khas,0.0
+categories__Market_Loharu,0.0
+categories__Market_Lalru,0.0
+categories__Market_Lalitpur,0.0
+categories__Market_Lalgudi (Uzhavar Sandhai ),0.0
+categories__Market_Mandi (Takoli),0.0
+categories__Market_Mandi (Mandi),0.0
+categories__Market_Manchar,0.0
+categories__Market_Manawar (F&V),0.0
+categories__Market_Manapparai (Uzhavar Sandhai ),0.0
+categories__Market_Manachanallur (Uzhavar Sandhai ),0.0
+categories__Market_Malout,0.0
+categories__Market_Malerkotla,0.0
+categories__Market_Mainpuri,0.0
+categories__Market_Maigalganj,0.0
+categories__Market_Mahoba,0.0
+categories__Market_Mahboob Manison,0.0
+categories__Market_Madlauda,0.0
+categories__Market_Madhoganj,0.0
+categories__Market_Madanganj Kishangarh,0.0
+categories__State_Chandigarh,0.0
+categories__District_Kokrajhar,0.0
+categories__District_Khiri (Lakhimpur),0.0
+categories__District_Kaushambi,0.0
+categories__District_Kathua,0.0
+categories__District_Kasganj,0.0
+categories__District_Kasargod,0.0
+categories__Market_Mathura,0.0
+categories__Market_Mansa (Manas Veg Yard),0.0
+categories__Market_Mansa,0.0
+categories__Market_Mannargudi II (Uzhavar Sandhai ),0.0
+categories__Market_Mannargudi I (Uzhavar Sandhai ),0.0
+categories__Market_Manjhanpur,0.0
+categories__Market_Manjeswaram,0.0
+categories__Market_Manjeri,0.0
+categories__Market_Manglaur,0.0
+categories__Market_Mangal Wedha,0.0
+categories__Market_Mirzapur,0.0
+categories__Market_Milak,0.0
+categories__Market_Mettur (Uzhavar Sandhai ),0.0
+categories__Market_Memari,0.0
+categories__Market_Melur (Uzhavar Sandhai ),0.0
+categories__Market_Melapalayam (Uzhavar Sandhai ),0.0
+categories__Market_Mehsana (Mehsana Veg),0.0
+categories__Market_Mehndipatnam (Rythu Bazar),0.0
+categories__Market_Mehmoodabad,0.0
+categories__Market_Meerut,0.0
+categories__Market_Medinipur (West),0.0
+categories__Market_Medavakkam (Uzhavar Sandhai ),0.0
+categories__Market_Mauranipur,0.0
+categories__Market_Maur,0.0
+categories__District_Kolkata,0.0
+categories__District_Kolhapur,0.0
+categories__Market_Muradnagar,0.0
+categories__Market_Muradabad,0.0
+categories__Market_Mumbai,0.0
+categories__State_NCT of Delhi,0.0
+categories__Market_Mulabagilu,0.0
+categories__Market_Mukkom,0.0
+categories__Market_Mugrabaadshahpur,0.0
+categories__Market_Moth,0.0
+categories__Market_Morinda,0.0
+categories__Market_Morena,0.0
+categories__Market_Morbi,0.0
+categories__Market_Mohindergarh,0.0
+categories__Market_Mohanur (Uzhavar Sandhai ),0.0
+remainder__Year,0.0
+categories__Market_Mohammdi,0.0
+categories__Market_Mohamadabad,0.0
+categories__Market_Namakkal (Uzhavar Sandhai ),0.0
+categories__Market_Najibabad,0.0
+categories__Market_Nagpur,0.0
+categories__Market_Nagina,0.0
+categories__Market_Nagapattinam (Uzhavar Sandhai ),0.0
+categories__Market_Nadiyad (Piplag),0.0
+categories__District_Ambedkarnagar,0.0
+categories__Market_Nadiad,0.0
+categories__Market_Nabha,0.0
+categories__Market_Naanpara,0.0
+categories__Market_Mysore (Bandipalya),0.0
+categories__District_Amarawati,0.0
+categories__Market_Muzzafarnagar,0.0
+categories__Market_Muthupettai (Uzhavar Sandhai ),0.0
+categories__Market_Muskara,0.0
+categories__Market_Musiri (Uzhavar Sandhai ),0.0
+categories__District_Karbi Anglong,0.0
+categories__District_Kanpur Dehat,0.0
+categories__District_Kanpur,0.0
+categories__District_Kannur,0.0
+categories__District_Kannuj,0.0
+categories__District_Kangra,0.0
+categories__District_Kancheepuram,0.0
+categories__District_Kallakuruchi,0.0
+categories__District_Kalburgi,0.0
+categories__District_Kalahandi,0.0
+categories__District_Kaithal,0.0
+categories__Market_Narwal Jammu (F&V),0.0
+categories__Market_Narnaul,0.0
+categories__Market_Naravarikuppam (Uzhavar Sandhai ),0.0
+categories__Market_Naraingarh,0.0
+categories__Market_Nanganallur (Uzhavar Sandhai ),0.0
+categories__District_Jammu,0.0
+categories__District_Jalore,0.0
+categories__District_Jalaun (Orai),0.0
+categories__District_Jaipur Rural,0.0
+categories__District_Jaipur,0.0
+categories__Market_Noida,0.0
+categories__Market_Nilagiri,0.0
+"categories__Market_New Grain Market , Faridabad",0.0
+"categories__Market_New Grain Market (main), Karnal",0.0
+categories__Market_Needamangalam (Uzhavar Sandhai ),0.0
+categories__Market_Nawan Shahar (Subzi Mandi),0.0
+categories__Market_Nawabganj,0.0
+categories__Market_Navsari,0.0
+categories__Market_Naugarh,0.0
+categories__Market_Natrampalli (Uzhavar Sandhai ),0.0
+categories__Market_Narwana,0.0
+categories__District_Gorakhpur,0.0
+categories__Market_Palani (Uzhavar Sandhai ),0.0
+categories__Market_Palanganatham (Uzhavar Sandhai ),0.0
+categories__Market_Palampur,0.0
+categories__Market_Palakkad,0.0
+categories__Market_Pala,0.0
+categories__Market_Padra,0.0
+categories__Market_Padappai (Uzhavar Sandhai ),0.0
+categories__Market_Pabiacherra,0.0
+categories__Market_Orai,0.0
+categories__Market_Nuh,0.0
+categories__Market_North Paravur,0.0
+categories__District_Jind,0.0
+categories__District_Jhansi,0.0
+categories__District_Jhajar,0.0
+categories__District_Jaunpur,0.0
+categories__Market_Paonta Sahib,0.0
+categories__District_Alwar,0.0
+categories__Market_Panipat,0.0
+categories__Market_Pandharpur,0.0
+categories__Market_Pallavaram (Uzhavar Sandhai ),0.0
+categories__Market_Pallapatti (Uzhavar Sandhai ),0.0
+categories__Market_Palladam (Uzhavar Sandhai ),0.0
+categories__Market_Palayamkottai (Uzhavar Sandhai ),0.0
+categories__Market_Palayam,0.0
+categories__District_Howrah,0.0
+categories__District_Hoshangabad,0.0
+categories__District_Hissar,0.0
+categories__District_Hathras,0.0
+categories__District_Hardoi,0.0
+categories__District_Hanumangarh,0.0
+categories__District_Gurgaon,0.0
+categories__Market_Payagpur,0.0
+categories__Market_Pattukottai (Uzhavar Sandhai ),0.0
+categories__Market_Pattikonda,0.0
+categories__Market_Pattambi,0.0
+categories__Market_Patran,0.0
+categories__Market_Patiala,0.0
+categories__Market_Pataudi,0.0
+categories__Market_Patan (F&V),0.0
+categories__Market_Patan,0.0
+categories__Market_Paruthipattu (Uzhavar Sandhai ),0.0
+categories__Market_Partaval,0.0
+categories__Market_Parlakhemundi,0.0
+categories__Market_Parappanangadi,0.0
+categories__Market_Paramathivelur (Uzhavar Sandhai ),0.0
+categories__District_Aligarh,0.0
+categories__Market_Papanasam (Uzhavar Sandhai ),0.0
+categories__District_Gonda,0.0
+categories__District_Ajmer,0.0
+categories__District_Goalpara,0.0
+categories__District_Ghazipur,0.0
+categories__District_Ghaziabad,0.0
+categories__District_Gautam Budh Nagar,0.0
+categories__District_Garhwal (Pauri),0.0
+categories__District_Gandhinagar,0.0
+categories__District_Gajapati,0.0
+categories__District_Firozabad,0.0
+categories__District_Fazilka,0.0
+categories__District_Ahmednagar,0.0
+categories__Market_Periyakulam (Uzhavar Sandhai ),0.0
+categories__Market_Perambra,0.0
+categories__Market_Perambalur (Uzhavar Sandhai ),0.0
+categories__Market_Pennagaram (Uzhavar Sandhai ),0.0
+categories__Market_Pune (Khadiki),0.0
+categories__Market_Pundri,0.0
+categories__Market_Pukharayan,0.0
+categories__Market_Pudukottai (Uzhavar Sandhai ),0.0
+categories__Market_Pratapgarh,0.0
+categories__Market_Porbandar,0.0
+categories__Market_Polur (Uzhavar Sandhai ),0.0
+categories__Market_Pipariya (F&V),0.0
+categories__Market_Pimpalgaon,0.0
+categories__Market_Pilibhit,0.0
+categories__Market_Phillaur (Apra Mandi),0.0
+categories__Market_Phaltan,0.0
+categories__Market_Phagwara,0.0
+categories__Market_Petlawad (F&V),0.0
+categories__Market_Perundurai (Uzhavar Sandhai ),0.0
+categories__Market_Perumbavoor,0.0
+categories__District_Farukhabad,0.0
+categories__District_Faridabad,0.0
+categories__District_Etawah,0.0
+categories__District_Etah,0.0
+categories__District_Durg,0.0
+categories__District_Dhubri,0.0
+categories__District_Ahmedabad,0.0
+categories__District_Dhar,0.0
+categories__Market_Radaur,0.0
+categories__Market_RSPuram (Uzhavar Sandhai ),0.0
+categories__Market_Quilandy,0.0
+categories__Market_Puwaha,0.0
+categories__Market_Purwa,0.0
+categories__Market_Puranpur,0.0
+categories__Market_Punhana,0.0
+categories__Market_Vedasanthur (Uzhavar Sandhai ),0.0
+categories__District_Darrang,0.0
+categories__District_Dahod,0.0
+categories__District_Churu,0.0
+categories__District_Chitrakut,0.0
+categories__District_Chikmagalur,0.0
+categories__Market_Ramkrishanpur (Howrah),0.0
+categories__Market_Ramanagara,0.0
+categories__Market_Raman,0.0
+categories__Market_Rajsamand,0.0
+categories__Market_Rajnandgaon,0.0
+categories__Market_Rajkot (Veg.Sub Yard),0.0
+categories__Market_Raipur Rai,0.0
+categories__Market_Raibareilly,0.0
+categories__Market_Rahuri,0.0
+categories__Market_Rahata,0.0
+categories__District_Fatehpur,0.0
+categories__Market_Rishikesh,0.0
+categories__Market_Rewari,0.0
+categories__Market_Rewa (F&V),0.0
+categories__Market_Rayagada (Muniguda),0.0
+categories__Market_Vayalapadu,0.0
+categories__Market_Rawatsar,0.0
+categories__Market_Ratnagiri (Nachane),0.0
+categories__Market_Ratia,0.0
+categories__Market_Rasipuram (Uzhavar Sandhai ),0.0
+categories__Market_Rasda,0.0
+categories__Market_Rania,0.0
+categories__Market_Ranaghat,0.0
+categories__Market_Ramtek,0.0
+categories__Market_Rampur,0.0
+categories__District_Deoria,0.0
+categories__District_Delhi,0.0
+categories__Market_Varipaal,0.0
+categories__Market_Sambhal,0.0
+categories__Market_Samalkha,0.0
+categories__Market_Salon,0.0
+categories__Market_Sainthia,0.0
+categories__Market_Sahnewal,0.0
+categories__Market_Sahiyapur,0.0
+categories__Market_Saharanpur,0.0
+categories__Market_Safidon,0.0
+categories__Market_Safdarganj,0.0
+categories__Market_Sadhaura,0.0
+categories__Market_Sabalgarh (F&V),0.0
+categories__Market_Rudrapur,0.0
+categories__Market_Rudauli,0.0
+categories__Market_Rohtak,0.0
+categories__Market_Robertsganj,0.0
+categories__Market_Sasthamkotta,0.0
+categories__Market_Sariahjan,0.0
+categories__Market_Sargipali,0.0
+categories__Market_Saraskana,0.0
+categories__Market_Sarankul,0.0
+categories__Market_Sarangpur (F&V),0.0
+categories__Market_Santoshgarh,0.0
+categories__Market_Santhesargur,0.0
+categories__Market_Sankarapuram (Uzhavar Sandhai ),0.0
+categories__Market_Sankarankoil (Uzhavar Sandhai ),0.0
+categories__Market_Sangrur,0.0
+categories__Market_Sangamner,0.0
+categories__Market_Sandila,0.0
+categories__Market_Sandi,0.0
+categories__Market_Samsabad,0.0
+categories__Market_Sampla,0.0
+categories__District_Chattrapati Sambhajinagar,0.0
+categories__District_Chandigarh,0.0
+categories__District_Chandauli,0.0
+categories__District_Chamrajnagar,0.0
+categories__District_Bulandshahar,0.0
+categories__District_Birbhum,0.0
+categories__District_Bikaner,0.0
+categories__District_Bijnor,0.0
+categories__Market_Shadnagar,0.0
+categories__Market_Shadabad,0.0
+categories__Market_Sendhwa (F&V),0.0
+categories__Market_Sehore (F&V),0.0
+categories__Market_Sealdah Koley Market,0.0
+"categories__Market_Sattupalli (ramalayam),RBZ",0.0
+categories__Market_Sathiyamagalam (Uzhavar Sandhai ),0.0
+categories__Market_Satara,0.0
+categories__Market_Varanasi,0.0
+categories__Market_Sikarpur,0.0
+categories__Market_Sikar,0.0
+categories__Market_Sikanderabad,0.0
+categories__Market_Shrirampur,0.0
+categories__Market_Shimoga,0.0
+categories__Market_Shimla,0.0
+categories__Market_Sheopurkalan (F&V),0.0
+categories__Market_Shamli,0.0
+categories__Market_Shahjahanpur,0.0
+categories__Market_Shahganj,0.0
+categories__Market_Shahdara,0.0
+categories__Market_Shahabad (New Mandi),0.0
+categories__Market_Shahabad,0.0
+categories__District_Chhindwara,0.0
+categories__District_Chhatarpur,0.0
+categories__District_Bhadohi (Sant Ravi Nagar),0.0
+categories__District_Basti,0.0
+categories__Market_Vantamamidi,0.0
+categories__District_Barnala,0.0
+categories__District_Bareilly,0.0
+categories__District_Baran,0.0
+categories__District_Barabanki,0.0
+categories__Market_Sohna,0.0
+categories__Market_Siwan,0.0
+categories__Market_Sivagangai (Uzhavar Sandhai ),0.0
+categories__Market_Sitarganj,0.0
+categories__Market_Sitapur,0.0
+categories__Market_Sirsaganj,0.0
+categories__Market_Sirsa,0.0
+categories__Market_Sirkali (Uzhavar Sandhai ),0.0
+categories__Market_Vandiperiyar,0.0
+categories__Market_Talwandi Sabo,0.0
+categories__Market_Taliparamba,0.0
+categories__Market_Talalagir,0.0
+categories__Market_Surat,0.0
+categories__Market_Valangaiman,0.0
+categories__Market_Sunam,0.0
+categories__Market_Sulur (Uzhavar Sandhai ),0.0
+categories__Market_Sultanpur,0.0
+categories__Market_Sujangarh,0.0
+categories__Market_Srinivasapur,0.0
+categories__Market_Sooramangalam (Uzhavar Sandhai ),0.0
+categories__Market_Sonari,0.0
+categories__Market_Vadodara (Sayajipura),0.0
+categories__District_Bhiwani,0.0
+categories__District_Bharuch,0.0
+categories__District_Bhadrak,0.0
+categories__Market_Thirumangalam (Uzhavar Sandhai ),0.0
+categories__Market_Theni (Uzhavar Sandhai ),0.0
+categories__Market_Thathakapatti (Uzhavar Sandhai ),0.0
+categories__Market_Thanjavur (Uzhavar Sandhai ),0.0
+categories__Market_Thanesar,0.0
+categories__Market_Thanabhavan,0.0
+categories__Market_Thammampatti (Uzhavar Sandhai ),0.0
+categories__Market_Thamarassery,0.0
+categories__Market_Thalayolaparambu,0.0
+categories__Market_Thalavadi (Uzhavar Sandhai ),0.0
+categories__Market_Thalasserry,0.0
+categories__Market_Tauru,0.0
+categories__Market_Tarori,0.0
+categories__Market_Tanda Urmur,0.0
+categories__Market_Tanda (Rampur),0.0
+categories__Market_Tamarainagar (Uzhavar Sandhai ),0.0
+categories__District_Balrampur,0.0
+categories__District_Balotra,0.0
+categories__District_Ballia,0.0
+categories__District_Balasore,0.0
+categories__District_Bahraich,0.0
+categories__District_Baghpat,0.0
+categories__District_Badwani,0.0
+categories__District_Badaun,0.0
+categories__District_Azamgarh,0.0
+categories__District_Ayodhya,0.0
+categories__District_Auraiya,0.0
+categories__District_Ariyalur,0.0
+categories__District_Anantnag,0.0
+categories__Market_Thrippunithura,0.0
+categories__Market_Thodupuzha,0.0
+categories__Market_Thirupathur,0.0
+categories__Market_Udaipur (F&V),0.0
+categories__Market_Tuticorin (Uzhavar Sandhai ),0.0
+categories__Market_Tundla,0.0
+categories__Market_Tulsipur,0.0
+categories__Market_Tohana (New Veg Market),0.0
+categories__Market_Tiruvarur (Uzhavar Sandhai ),0.0
+categories__Market_Tiruvannamalai (Uzhavar Sandhai ),0.0
+categories__Market_Tiruvallur (Uzhavar Sandhai ),0.0
+categories__Market_Tiruppur (South) (Uzhavar Sandhai ),0.0
+categories__Market_Vadhvan,0.0
+categories__Market_Tindivanam,0.0
+categories__Market_Timarni (F&V),0.0
+categories__Market_Tilhar,0.0
+categories__Market_Thuraiyur,0.0
+categories__District_Banda,0.0
+categories__District_Banaskanth,0.0
+categories__Market_Vadgaonpeth,0.0
+categories__Market_Vadavalli (Uzhavar Sandhai ),0.0
+categories__Market_Vadakarapathy VFPCK,0.0
+categories__Market_Uttaripura,0.0
+categories__Market_Usilampatty,0.0
+categories__Market_Unnao,0.0
+categories__Market_Una,0.0
+categories__Market_Ulundurpettai,0.0
+categories__Market_Uluberia,0.0
+categories__Market_Uklana,0.0
+categories__Market_Ujhani,0.0
+categories__Market_Udupi,0.0
+categories__Market_Badayoun,0.0
+categories__Market_Udhampur,0.0
+categories__Market_Udhagamandalam (Uzhavar Sandhai ),0.0
+categories__Market_Udala,0.0
+categories__Market_Allahabad,0.0
+categories__Market_Zira,0.0
+categories__Market_Yamuna Nagar,0.0
+categories__Market_Wazirganj,0.0
+categories__Market_Bachranwa,0.0
+categories__Market_Wadakkanchery,0.0
+categories__Market_Viswan,0.0
+categories__Market_Vishalpur,0.0
+categories__Market_Viruthachalam (Uzhavar Sandhai ),0.0
+categories__Market_Venkateswarnagar,0.0
+categories__Market_Vengeri (Kozhikode),0.0
+categories__Market_Vellore,0.0
+categories__Market_Velayuthampalayam (Uzhavar Sandhai ),0.0
+categories__Market_Azamgarh,0.0
+categories__District_Amroha,0.0
+categories__District_Amethi,0.0
+categories__Market_Anoop Shahar,0.0
+categories__Market_Anna nagar (Uzhavar Sandhai ),0.0
+categories__Market_Ankleshwar,0.0
+categories__Market_Andipatti (Uzhavar Sandhai ),0.0
+categories__Market_Anandnagar,0.0
+categories__Market_Anandapur,0.0
+"categories__Market_Anand (Veg,Yard,Anand)",0.0
+categories__Market_Anaiyur (Uzhavar Sandhai ),0.0
+categories__Market_Amroha,0.0
+categories__Market_Azadpur,0.0
+categories__Market_Amrawati (Frui & Veg. Market),0.0
+categories__Market_Ammapet (Uzhavar Sandhai ),0.0
+categories__Market_Ambasamudram (Uzhavar Sandhai ),0.0
+categories__Market_Ambala Cantt.,0.0
+categories__Market_Alwar (F&V),0.0
+categories__Market_Aluva,0.0
