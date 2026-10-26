@@ -1,0 +1,14 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Reproducible generated output; keep source data and source scripts
+artifacts/
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
