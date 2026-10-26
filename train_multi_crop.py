@@ -90,12 +90,12 @@ def main() -> None:
     df = df.sort_values(GROUPS + ["Arrival_Date"]).reset_index(drop=True)
 
     grouped = df.groupby(GROUPS, dropna=False)["Modal_Price"]
-    df["Previous_Price"] = grouped.shift(1)
+    df["Current_Price"] = df["Modal_Price"]
     df["Rolling_Mean_3"] = grouped.transform(
-        lambda s: s.shift(1).rolling(3, min_periods=3).mean()
+        lambda s: s.rolling(3, min_periods=3).mean()
     )
     df["Rolling_Mean_7"] = grouped.transform(
-        lambda s: s.shift(1).rolling(7, min_periods=7).mean()
+        lambda s: s.rolling(7, min_periods=7).mean()
     )
     # The label is the next recorded observation in this exact series.
     df["Target_Next_Observed_Price"] = grouped.shift(-1)
@@ -105,7 +105,7 @@ def main() -> None:
     df["DayOfWeek"] = df["Arrival_Date"].dt.dayofweek
 
     model_data = df.dropna(
-        subset=["Previous_Price", "Rolling_Mean_3", "Rolling_Mean_7",
+        subset=["Current_Price", "Rolling_Mean_3", "Rolling_Mean_7",
                 "Target_Next_Observed_Price"]
     ).copy()
     if model_data.empty or model_data["Arrival_Date"].nunique() < 2:
@@ -130,7 +130,7 @@ def main() -> None:
 
     categorical = GROUPS
     numeric = [
-        "Year", "Month", "Day", "DayOfWeek", "Previous_Price",
+        "Year", "Month", "Day", "DayOfWeek", "Current_Price",
         "Rolling_Mean_3", "Rolling_Mean_7"
     ]
     features = categorical + numeric
@@ -151,7 +151,7 @@ def main() -> None:
 
     X_train, y_train = train[features], train[target]
     X_test, y_test = test[features], test[target]
-    baseline = X_test["Previous_Price"].to_numpy()
+    baseline = X_test["Current_Price"].to_numpy()
 
     print(f"Training rows: {len(train):,}; testing rows: {len(test):,}")
     print(f"Training dates end: {train['Arrival_Date'].max().date()}")
@@ -161,7 +161,7 @@ def main() -> None:
     pred = model.predict(X_test)
 
     metrics = pd.DataFrame([
-        {"model": "Previous-price baseline",
+        {"model": "Current-price persistence baseline",
          "MAE": mean_absolute_error(y_test, baseline),
          "RMSE": np.sqrt(mean_squared_error(y_test, baseline)),
          "R2": r2_score(y_test, baseline)},
@@ -174,7 +174,7 @@ def main() -> None:
 
     results = test[GROUPS + ["Arrival_Date", "Modal_Price"]].copy()
     results["Actual_Next_Observed_Price"] = y_test.to_numpy()
-    results["Previous_Price_Baseline"] = baseline
+    results["Current_Price_Baseline"] = baseline
     results["Predicted_Next_Observed_Price"] = np.round(pred, 2)
     results.to_csv(output / "test_predictions.csv", index=False)
     joblib.dump(model, output / "multi_crop_xgboost.joblib")
