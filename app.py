@@ -7,7 +7,7 @@ import streamlit as st
 DATA_CANDIDATES = [Path("2025 cleaned.xlsx"), Path("data/2025 cleaned.xlsx"), Path("data/market_prices_all_crops.csv")]
 MODEL_PATH = Path("outputs/multi_crop_xgboost.joblib")
 GROUPS = ["State", "District", "Market", "Commodity", "Variety", "Grade"]
-NUMERIC = ["Year", "Month", "Day", "DayOfWeek", "Previous_Price", "Rolling_Mean_3", "Rolling_Mean_7"]
+NUMERIC = ["Year", "Month", "Day", "DayOfWeek", "Current_Price", "Rolling_Mean_3", "Rolling_Mean_7"]
 FEATURES = GROUPS + NUMERIC
 
 st.set_page_config(page_title="Market Price Prediction", page_icon="🌾", layout="wide")
@@ -74,11 +74,11 @@ st.warning("This estimates the next available recorded price for the selected se
 if len(series) < 8:
     st.info("This series has fewer than 8 dated records, so there is not enough history for the 7-observation rolling feature.")
 else:
-    series["Previous_Price"] = series["Modal_Price"].shift(1)
-    series["Rolling_Mean_3"] = series["Modal_Price"].shift(1).rolling(3, min_periods=3).mean()
-    series["Rolling_Mean_7"] = series["Modal_Price"].shift(1).rolling(7, min_periods=7).mean()
+    series["Current_Price"] = series["Modal_Price"]
+    series["Rolling_Mean_3"] = series["Modal_Price"].rolling(3, min_periods=3).mean()
+    series["Rolling_Mean_7"] = series["Modal_Price"].rolling(7, min_periods=7).mean()
     latest = series.iloc[-1]
-    if pd.isna(latest["Previous_Price"]) or pd.isna(latest["Rolling_Mean_7"]):
+    if pd.isna(latest["Current_Price"]) or pd.isna(latest["Rolling_Mean_7"]):
         st.info("Not enough valid lag history for this series.")
     else:
         st.write(f"Latest recorded date: **{latest['Arrival_Date'].date()}**")
@@ -91,7 +91,7 @@ else:
             row = {col: str(latest[col]) for col in GROUPS}
             date = latest["Arrival_Date"]
             row.update({"Year": date.year, "Month": date.month, "Day": date.day, "DayOfWeek": date.dayofweek,
-                        "Previous_Price": float(latest["Previous_Price"]), "Rolling_Mean_3": float(latest["Rolling_Mean_3"]),
+                        "Current_Price": float(latest["Current_Price"]), "Rolling_Mean_3": float(latest["Rolling_Mean_3"]),
                         "Rolling_Mean_7": float(latest["Rolling_Mean_7"])})
             predicted = max(0.0, float(model.predict(pd.DataFrame([row], columns=FEATURES))[0]))
             st.metric("Predicted next recorded modal price", f"₹{predicted:,.2f}")
