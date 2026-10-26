@@ -37,6 +37,8 @@ Run the full source workbook pipeline from a separate data folder or choose anot
 python .\train_model.py --data-dir .\data\raw --output-dir .\artifacts
 ```
 
+An additional CLI, `train_multi_crop.py`, is retained from the upstream branch as an explicitly different target experiment. It predicts the **next available recorded observation**, not a fixed seven-day value, and writes its separate reports to `outputs/`. Its model is not loaded by the seven-day dashboard. Compare the target definitions before using either result.
+
 Run unit tests and open the dashboard:
 
 ```powershell
