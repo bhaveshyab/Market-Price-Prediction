@@ -22,10 +22,20 @@ ALIASES = {
 
 def parse_dates(values: pd.Series) -> pd.Series:
     """Parse mixed ISO and day-first dates without changing the source values."""
+    if pd.api.types.is_datetime64_any_dtype(values):
+        return pd.to_datetime(values, errors="coerce")
+    text = values.astype("string").str.strip()
+    iso = text.str.match(r"^\d{4}[-/]\d{1,2}[-/]\d{1,2}", na=False)
+    parsed = pd.Series(pd.NaT, index=values.index, dtype="datetime64[ns]")
     try:
-        return pd.to_datetime(values, format="mixed", dayfirst=True, errors="coerce")
+        parsed.loc[iso] = pd.to_datetime(text.loc[iso], format="mixed", errors="coerce")
+        parsed.loc[~iso] = pd.to_datetime(
+            text.loc[~iso], format="mixed", dayfirst=True, errors="coerce"
+        )
     except (TypeError, ValueError):  # pandas before format="mixed"
-        return pd.to_datetime(values, dayfirst=True, errors="coerce")
+        parsed.loc[iso] = pd.to_datetime(text.loc[iso], errors="coerce")
+        parsed.loc[~iso] = pd.to_datetime(text.loc[~iso], dayfirst=True, errors="coerce")
+    return parsed
 
 
 def read_sources(paths: list[Path]) -> pd.DataFrame:
@@ -114,6 +124,7 @@ def make_features(clean: pd.DataFrame) -> pd.DataFrame:
     """Create exact +7 calendar day targets and strictly prior price features."""
     df = clean.sort_values(KEYS).copy()
     series_keys = DIMENSIONS
+    df["Current_Price"] = df[PRICE]
     grouped = df.groupby(series_keys, sort=False, dropna=False)[PRICE]
     df["Lag_1"] = grouped.shift(1)
     df["Lag_7"] = grouped.shift(7)

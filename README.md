@@ -6,7 +6,7 @@ A small, reproducible Streamlit application for exploring Indian agricultural ma
 
 Place source CSV/XLSX files in the project root or a `data/raw` folder. Files need State, District, Market, Commodity, Variety, Grade, Arrival_Date, and Modal_Price columns (case and common separators are normalized). Optional minimum and maximum prices are retained and checked. Invalid dates and nonpositive modal prices are excluded from modeling; zeros and negatives are counted in the report. Exact duplicate market-series/date observations keep the first record. Price range relationship violations are reported but kept. Original source files are never rewritten.
 
-The project contains a historical Tomato CSV (`tomato_clean.csv`, 39,114 usable rows) and two 2025 Excel workbooks. The raw workbook `2025.csv.xlsx` has a sheet named `2025`; its worksheet reports a 1,048,576 by 14 range, with 12 named columns matching the expected market-price schema and two blank header columns. The first two data rows include Gur and Garlic, confirming that the sample is not Tomato-only. The sheet reaches Excel's maximum row index, however, so that value is not a verified nonblank record count. A full import attempt took over 20 minutes without completing in this environment. Full-workbook row counts, commodity counts, date coverage, cleaning report, and model metrics therefore remain unverified. When raw and cleaned files are co-located, training prefers the raw-named files to avoid loading a cleaned duplicate. The file `2025 cleaned.xlsx` already has uncommitted user changes; it was left intact.
+The project includes a historical Tomato CSV and the full 2025 workbook (`2025.csv.xlsx`). The raw workbook was loaded and processed in full. `2025 cleaned.xlsx` is preserved as supplied. The generated `artifacts/commodity_coverage.csv` lists every commodity and its record, series, exact-seven-day coverage, split counts, and forecast support status.
 
 ## Windows PowerShell setup
 
@@ -37,7 +37,7 @@ Run the full source workbook pipeline from a separate data folder or choose anot
 python .\train_model.py --data-dir .\data\raw --output-dir .\artifacts
 ```
 
-An additional CLI, `train_multi_crop.py`, is retained from the upstream branch as an explicitly different target experiment. It predicts the **next available recorded observation**, not a fixed seven-day value, and writes its separate reports to `outputs/`. Its model is not loaded by the seven-day dashboard. Compare the target definitions before using either result.
+The dashboard loads the multi-commodity seven-day model and cleaned data from `artifacts/`. Filters start with commodity and cascade through state, district, market, variety, and grade. A forecast is disabled when the commodity has fewer than 20 exact-seven-day training targets or the selected series has fewer than 8 observations. The older `train_multi_crop.py` is a separate next-observation experiment and is not used by the dashboard.
 
 Run unit tests and open the dashboard:
 
@@ -52,17 +52,15 @@ Targets are joined by the exact date `observation + 7 days` inside each full ser
 
 The validation partition is reserved chronologically but the model is not tuned against it. Exact seven-day target coverage can be low for markets that report intermittently; training stops clearly if any split has no target examples. A forecast is an estimate, not market advice. Source units are displayed without asserting currency or weight because workbook units have not yet been verified.
 
-## Current verification status
+## Full 2025 run
 
-The new automated tests passed: **7 passed**. Python `compileall` passed. Streamlit served HTTP 200 and an AppTest run rendered three tabs with no app exceptions.
+The full `2025.csv.xlsx` sheet loaded 1,048,575 data rows. Cleaning retained 1,048,382 rows, removed 193 invalid rows, and found no duplicate series/date records. The retained dates span 2025-01-01 through 2025-02-23 (54 distinct dates). The data contains 297 commodities and 2,677 market names. The model's exact seven-day target and historical-feature requirements yielded 661,604 eligible examples (63.1% of retained rows). The chronological split has 436,382 training, 113,170 validation, and 112,052 test examples.
 
-The completed real-data training run used only `tomato_clean.csv` because the 2025 workbook did not finish loading within a practical runtime. It covered 39,114 rows, one commodity (Tomato), 1,028 markets, and dates 2025-01-01 through 2025-02-23. There were no invalid dates/prices or duplicate series-date records; one minimum price was zero. Exact seven-day targets plus required historical features were available for 24,786 rows (63.4%); 14,328 rows were excluded. The chronological split used 16,093 training rows (2025-01-04 through 2025-02-02), 4,387 validation rows, and 4,306 test rows (observation dates 2025-02-10 through 2025-02-16; their target dates are seven days later).
-
-| Test metric | Persistence baseline | Random Forest |
+| Test metric | Current-price persistence | XGBoost |
 | --- | ---: | ---: |
-| MAE | 206.94 | 237.17 |
-| RMSE | 376.76 | 369.09 |
-| R-squared | 0.8793 | 0.8841 |
+| MAE | 441.55 | 438.32 |
+| RMSE | 3,072.74 | 2,627.68 |
+| R-squared | 0.7718 | 0.8332 |
 
-The Random Forest has worse MAE than persistence and slightly better RMSE and R-squared. It does not consistently outperform the baseline. XGBoost was not installed in the active environment, so the fallback Random Forest was used. No per-market result met the 20-test-row reporting threshold. These metrics describe the Tomato CSV only and must not be represented as evaluation of the multi-crop workbook. The dashboard currently loads the completed Tomato artifacts; rerun training against a validated multi-crop source to populate it with broader coverage. Do not treat the repository's older saved Tomato model files or their evaluation CSVs as results from this seven-day pipeline.
+Of the 297 commodities, 196 have at least 20 exact-seven-day training targets and are forecast-enabled; 101 are clearly marked insufficient in the dashboard and coverage CSV. The full per-commodity record and target coverage is in `artifacts/commodity_coverage.csv`. These results use the full cleaned workbook data. The original Excel files were not modified.
 

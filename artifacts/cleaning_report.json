@@ -1,0 +1,50 @@
+{
+  "input_rows": 1048575,
+  "missing_columns": [],
+  "invalid_dates": 193,
+  "min_price_missing_or_invalid": 193,
+  "min_price_zeros": 796,
+  "min_price_negative": 0,
+  "max_price_missing_or_invalid": 193,
+  "max_price_zeros": 423,
+  "max_price_negative": 0,
+  "modal_price_missing_or_invalid": 193,
+  "modal_price_zeros": 0,
+  "modal_price_negative": 0,
+  "invalid_modal_prices": 193,
+  "zero_modal_prices": 0,
+  "negative_modal_prices": 0,
+  "missing_modal_prices": 193,
+  "missing_categories": {
+    "State": 193,
+    "District": 193,
+    "Market": 193,
+    "Commodity": 193,
+    "Variety": 193,
+    "Grade": 193
+  },
+  "price_distribution": {
+    "0.0": 1.0,
+    "0.25": 2075.0,
+    "0.5": 3500.0,
+    "0.75": 5600.0,
+    "1.0": 4000000.0
+  },
+  "invalid_rows_removed": 193,
+  "duplicate_records": 0,
+  "price_relationship_violations": 423,
+  "modal_below_min": 0,
+  "modal_above_max": 423,
+  "retained_rows": 1048382,
+  "date_min": "2025-01-01",
+  "date_max": "2025-02-23",
+  "commodities": 297,
+  "markets": 2677,
+  "date_years": [
+    2025
+  ],
+  "source_files": [
+    "2025.csv.xlsx"
+  ],
+  "source_rows_loaded": 1048575
+}

@@ -4,11 +4,24 @@ venv/
 .env
 __pycache__/
 .pytest_cache/
+.pytest_tmp/
 *.py[cod]
 
 # Reproducible generated output; keep source data and source scripts
-artifacts/
+artifacts/*
+!artifacts/price_model.joblib
+!artifacts/cleaning_report.json
+!artifacts/model_metrics.json
+!artifacts/commodity_coverage.csv
+!artifacts/feature_importance.csv
 outputs/
+
+# Source workbooks and generated caches
+*.xls
+*.xlsx
+*.tmp
+*.temp
+Microsoft/Windows/PowerShell/ModuleAnalysisCache
 
 # Editor/OS files
 .vscode/

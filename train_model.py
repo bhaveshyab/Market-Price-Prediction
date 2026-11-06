@@ -14,7 +14,7 @@ from market_price import DATE, DIMENSIONS, chron_split, clean_data, make_feature
 
 ROOT = Path(__file__).resolve().parent
 CAT = DIMENSIONS
-NUM = ["Year", "Month", "Day", "Weekday", "DayOfYear", "Lag_1", "Lag_7", "Rolling_Mean_7", "Rolling_Std_7"]
+NUM = ["Year", "Month", "Day", "Weekday", "DayOfYear", "Current_Price", "Lag_1", "Lag_7", "Rolling_Mean_7", "Rolling_Std_7"]
 FEATURES = CAT + NUM
 
 def build_model(estimator):
@@ -72,10 +72,27 @@ def main():
     model = build_model(estimator)
     model.fit(train[FEATURES], train["Target_Price"])
     pred = model.predict(test[FEATURES])
-    results = test[DIMENSIONS + [DATE, "Target_Date", "Lag_1", "Target_Price"]].copy()
-    results = results.rename(columns={"Lag_1": "Persistence_Prediction", "Target_Price": "Actual_Price"})
+    results = test[DIMENSIONS + [DATE, "Target_Date", "Current_Price", "Target_Price"]].copy()
+    results = results.rename(columns={"Current_Price": "Persistence_Prediction", "Target_Price": "Actual_Price"})
     results["Model_Prediction"] = pred
     results.to_csv(args.output_dir / "test_predictions.csv", index=False)
+    coverage = data.groupby("Commodity", dropna=False).agg(
+        cleaned_records=("Modal_Price", "size"),
+        series_count=("Market", "nunique"),
+        first_date=(DATE, "min"), last_date=(DATE, "max"),
+    )
+    eligible_counts = eligible.groupby("Commodity", dropna=False).size().rename("eligible_exact_7d_rows")
+    train_counts = train.groupby("Commodity", dropna=False).size().rename("train_rows")
+    valid_counts = valid.groupby("Commodity", dropna=False).size().rename("validation_rows")
+    test_counts = test.groupby("Commodity", dropna=False).size().rename("test_rows")
+    coverage = coverage.join([eligible_counts, train_counts, valid_counts, test_counts]).fillna(0)
+    for col in ["eligible_exact_7d_rows", "train_rows", "validation_rows", "test_rows"]:
+        coverage[col] = coverage[col].astype("int64")
+    coverage["exact_7d_coverage"] = coverage["eligible_exact_7d_rows"] / coverage["cleaned_records"]
+    coverage["forecast_status"] = np.where(
+        coverage["train_rows"] >= 20, "supported (20+ training targets)",
+        "insufficient training history (<20 training targets)")
+    coverage.reset_index().to_csv(args.output_dir / "commodity_coverage.csv", index=False)
     def grouped_scores(column):
         rows = []
         for key, group in results.groupby(column, dropna=False):
@@ -90,7 +107,10 @@ def main():
                "train_start": str(train[DATE].min().date()), "train_end": str(train[DATE].max().date()),
                "test_start": str(test[DATE].min().date()), "test_end": str(test[DATE].max().date()),
                "exact_target_coverage": float(len(eligible)/max(1,len(data))),
-               "baseline": score(test["Target_Price"], test["Lag_1"]), "model_metrics": score(test["Target_Price"], pred),
+               "commodity_count": int(data["Commodity"].nunique()),
+               "commodities": sorted(data["Commodity"].unique().tolist()),
+               "commodity_coverage_file": "commodity_coverage.csv",
+               "baseline": score(test["Target_Price"], test["Current_Price"]), "model_metrics": score(test["Target_Price"], pred),
                "by_commodity_min_20": grouped_scores("Commodity"), "by_market_min_20": grouped_scores("Market"),
                "cleaning": report}
     (args.output_dir / "model_metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
